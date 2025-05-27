@@ -640,6 +640,7 @@ const isNextButtonDisabled = useCallback(() => {
                     setLoading(false);
                 });
         }
+        
 
         if (lessonVideoUrl && lessonVideoUrl.endsWith('.mp4')) {
             setVideoLoading(true);
