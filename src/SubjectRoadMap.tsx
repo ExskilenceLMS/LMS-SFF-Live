@@ -645,7 +645,7 @@ const isNextButtonDisabled = useCallback(() => {
             setVideoLoading(true);
             setVideoError(false);
             setLoading(true);
-
+            setVideoUrl('')
             fetch('https://live-exskilence-be.azurewebsites.net/media/', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
